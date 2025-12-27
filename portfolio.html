@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhatchaya T | Student Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Montserrat:wght@500;600&family=Roboto&family=Pacifico&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: #eef2f3;
+            color: #222;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 45px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 44px;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+        }
+
+        nav {
+            background: #111;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: #4facfe;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        article {
+            background: white;
+            margin: 25px 0;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 8px 18px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            color: #2a5298;
+            margin-bottom: 12px;
+        }
+
+        article p {
+            line-height: 1.7;
+        }
+
+        /* SKILLS STYLE */
+        .skills-box {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .skill-card {
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 25px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 30px;
+            }
+
+            nav a {
+                display: block;
+                margin: 8px 0;
+            }
+
+            .skills-box {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Dhatchaya T</h1>
+    <p>Computer Science Engineering Student</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+    <article id="about">
+        <h2>About Me</h2>
+        <p>
+            I am Dhatchaya T, a Computer Science Engineering student at
+            Bannari Amman Institute of Technology. I am enthusiastic about
+            learning programming concepts and applying them through practice.
+        </p>
+        <p>
+            I am interested in learning the fundamentals of programming and
+            understanding how software systems work. As a beginner, I focus
+            on building a strong foundation in concepts such as logic,
+            problem-solving, and structured coding.
+        </p>
+    </article>
+
+    <article id="education">
+        <h2>Education</h2>
+        <p><strong>Degree:</strong> B.E Computer Science and Engineering</p>
+        <p><strong>Institution:</strong> Bannari Amman Institute of Technology</p>
+    </article>
+
+    <article id="skills">
+        <h2>Technical Skills</h2>
+
+        <div class="skills-box">
+            <div class="skill-card">C Programming</div>
+            <div class="skill-card">Python Basics</div>
+            <div class="skill-card">HTML Basics</div>
+            <div class="skill-card">UI/UX Basics</div>
+        </div>
+    </article>
+
+    <article id="contact">
+        <h2>Contact</h2>
+        <p><strong>Phone:</strong> 7339352202</p>
+        <p><strong>Email:</strong> dhatchayat.cs24@bitsathy.ac.in</p>
+    </article>
+
+</main>
+
+<footer>
+    <p>© 2025 Dhatchaya T | Student Portfolio</p>
+</footer>
+
+</body>
+</html>
